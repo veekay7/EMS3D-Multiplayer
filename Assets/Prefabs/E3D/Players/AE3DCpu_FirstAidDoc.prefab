@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1655384553781356253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655384553781356254}
+  - component: {fileID: 1655384553781356241}
+  - component: {fileID: 1655384553781356255}
+  - component: {fileID: 1655384553781356240}
+  m_Layer: 0
+  m_Name: AE3DCpu_FirstAidDoc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1655384553781356254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655384553781356253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655384553781356241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655384553781356253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: ec5b22978ef64a647afdf7c44e4d5a5d
+  hasSpawned: 0
+--- !u!114 &1655384553781356255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655384553781356253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90edb9513c44b454db4ddc1f98320618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_State: {fileID: 1655384553781356240}
+  m_DevConsoleWndPrefab: {fileID: 0}
+  m_PlayerUIPrefab: {fileID: 0}
+  m_Cost: 3500
+  m_RaycastIgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_PlayerName: unnamed
+  m_readyToPlay: 0
+  m_curLocation: {fileID: 0}
+  m_curLocNetId: 0
+  m_LarryModelPrefab: {fileID: 0}
+  m_BlackoutPrefab: {fileID: 0}
+  m_TreatmentWasApplied: 0
+  m_victim: {fileID: 0}
+  m_victimNetId: 0
+--- !u!114 &1655384553781356240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655384553781356253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494c72d4f2fdf7948b4d9800fcd301cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_player: {fileID: 0}
+  m_TriageActionScore: 0
+  m_TriageDmgScore: 0
+  m_CorrectTriageP3Num: 0
+  m_CorrectTriageP2Num: 0
+  m_CorrectTriageP1Num: 0
+  m_CorrectTriageP0Num: 0
+  m_UnderTriageNum: 0
+  m_OverTriageNum: 0
+  m_TotalTriageTime: 0
+  m_WasDeadWhileInCare: 0
+  m_TotalVictimsAttendedNum: 0
+  m_TotalTreatmentNum: 0
+  m_CorrectTreatmentNum: 0
+  m_TreatmentActionScore: 0
+  m_TreatmentDmgScore: 0
+  m_TotalTreatmentTime: 0
+  m_TotalVictimsEvacuatedNum: 0
+  m_EvacActionScore: 0
+  m_EvacDmgScore: 0

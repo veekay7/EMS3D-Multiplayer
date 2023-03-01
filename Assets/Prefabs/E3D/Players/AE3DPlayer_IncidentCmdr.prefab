@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2893616136378984201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2893616136378984200}
+  - component: {fileID: 2893616136378984202}
+  - component: {fileID: 2893616136378984203}
+  - component: {fileID: -8858066352795839199}
+  m_Layer: 5
+  m_Name: AE3DPlayer_IncidentCmdr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2893616136378984200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893616136378984201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2893616136378984202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893616136378984201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 6dce646f425a8884cb455d5b96101181
+  hasSpawned: 0
+--- !u!114 &2893616136378984203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893616136378984201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d536675cde4fdc4ba2949997c86c2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_State: {fileID: -8858066352795839199}
+  m_DevConsoleWndPrefab: {fileID: 0}
+  m_PlayerUIPrefab: {fileID: 5389597798610173026, guid: cb985c6fd8a22a94e964de7e639c7d1c,
+    type: 3}
+  m_Cost: 0
+  m_RaycastIgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 535
+  m_PlayerName: unnamed
+  m_readyToPlay: 0
+  m_curLocation: {fileID: 0}
+  m_curLocNetId: 0
+  m_buildProxyPrefab: {fileID: 5929431849414368239, guid: 0b24a23fb720f994ca628a7a08edbcd9,
+    type: 3}
+  m_Items:
+  - {fileID: 11400000, guid: 6dd6cb72f1c88a94bbba878d122cdde8, type: 2}
+  - {fileID: 11400000, guid: cebe35172aa853a4fa2dd7c734d2e24a, type: 2}
+  - {fileID: 11400000, guid: bb808f83a1050ae4986d7b8fab4adcd6, type: 2}
+  - {fileID: 11400000, guid: a35c197ffd5d1864698bc73c6edd5105, type: 2}
+  - {fileID: 11400000, guid: c494aff2ebb35144381f0a5693a07b86, type: 2}
+  - {fileID: 11400000, guid: 510c85a356fc6a64a8abd6ec33e779ca, type: 2}
+  - {fileID: 11400000, guid: 26b1e8ae4fd545e4ba8d343cb84621c0, type: 2}
+  - {fileID: 11400000, guid: 0679d0485533ef7499be360dd95b2dde, type: 2}
+  m_numItemBags: 10
+  m_selectedLocation: {fileID: 0}
+--- !u!114 &-8858066352795839199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893616136378984201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494c72d4f2fdf7948b4d9800fcd301cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  m_player: {fileID: 0}
+  m_TriageActionScore: 0
+  m_TriageDmgScore: 0
+  m_CorrectTriageP3Num: 0
+  m_CorrectTriageP2Num: 0
+  m_CorrectTriageP1Num: 0
+  m_CorrectTriageP0Num: 0
+  m_UnderTriageNum: 0
+  m_OverTriageNum: 0
+  m_TotalTriageTime: 0
+  m_WasDeadWhileInCare: 0
+  m_TotalVictimsAttendedNum: 0
+  m_TotalTreatmentNum: 0
+  m_CorrectTreatmentNum: 0
+  m_TreatmentActionScore: 0
+  m_TreatmentDmgScore: 0
+  m_TotalTreatmentTime: 0
+  m_EvacActionScore: 0
+  m_EvacDmgScore: 0
