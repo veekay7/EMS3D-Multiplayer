@@ -124,7 +124,7 @@ public class InputController : SingletonBehaviour<InputController>
                 mouseInfo.m_OnClickTime = Time.realtimeSinceStartup;
                 mouseInfo.m_IsOverUI = Utils.Input_IsPointerOnGUI();
 
-                // Reset some mouse info shit.
+                // Reset mouse info.
                 mouseInfo.m_IsHolding = false;
                 mouseInfo.m_IsDrag = false;
                 mouseInfo.m_IsHolding = false;

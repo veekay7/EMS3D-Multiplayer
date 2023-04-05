@@ -119,7 +119,7 @@ namespace E3D
 
         public void RequestRefillStock()
         {
-            Debug.Log("Create the request refill stock function you dipshit!");
+            Debug.Log("Create the request refill stock function!");
         }
 
         public void SendVictimToEvac()

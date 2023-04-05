@@ -59,7 +59,7 @@ namespace E3D
         {
             if (m_myUI.ActiveView == m_myUI.m_CachedViews[FirstAidDocUI.APPLY_TREATMENT_SCREEN])
             {
-                // don't do shit
+                // Return
                 return;
             }
 
@@ -221,7 +221,7 @@ namespace E3D
                 CurrentVictim.m_State.CMD_SetTreatedFlag(true);
                 //CurrentVictim.m_IsActive = false;        // NOTE: this should not be set to false in multiplayer
 
-                // do scoring shit here!!
+                // do scoring here!!
                 float duration = Time.time - m_startTime;
                 m_startTime = 0.0f;
                 GameMode.Current.ProcessMorgueScoring(this, m_victim, duration);
@@ -254,7 +254,7 @@ namespace E3D
                 // NOTE: deactivate the victim single player mode only!!
                 CurrentVictim.m_IsActive = false;
 
-                // do scoring shit here!!
+                // do scoring here!!
                 float duration = Time.time - m_startTime;
                 m_startTime = 0.0f;
 

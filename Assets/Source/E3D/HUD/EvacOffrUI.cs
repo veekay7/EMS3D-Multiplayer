@@ -313,8 +313,8 @@ namespace E3D
             //SelectFirstButtonInAmbulanceList();
         }
 
-        // Victim shit
-        #region Vicitm shit
+        // Victim
+        #region Vicitm
 
         public void OpenLoadAmbulanceWindow()
         {
@@ -349,8 +349,8 @@ namespace E3D
 
         #endregion
 
-        // Hospital shit
-        #region Hospital Shit
+        // Hospital
+        #region Hospital
 
         public void OpenSelectHospitalWindow()
         {

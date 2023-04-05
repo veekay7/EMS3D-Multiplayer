@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace E3D
 {
-    // patient sex (if you dare change this i'll fucking kill you!
+    // patient sex
     public enum ESex { Female = 0, Male = 1 }
 
     // capiliary refill time
@@ -194,7 +194,7 @@ namespace E3D
             m_StartGCS = m_GCS;
             m_StartHeartRate = m_HeartRate;
 
-            // do vital scoring shit
+            // do vital scoring
             if (m_StartResp <= 20)
             {
                 m_s_Resp = 5.15529f / (1 + Mathf.Exp(-m_StartResp / 3.74014f + 1.39551f)) - 1.01516f;

@@ -58,7 +58,7 @@ namespace E3D
 
         private void Start()
         {
-            // calculate cost and shit and put it on the damn game mode
+            // calculate cost and put it on the game mode
             if (isServer)
             {
                 GameMode.Current.CalcMoneyGiven(GameCtrl.Instance.m_Difficulty);
@@ -98,7 +98,7 @@ namespace E3D
                             // check if we are pointing in a placement area or not
                             if (hit2.transform.gameObject.GetComponent<APlacementArea>())
                             {
-                                // check if proxy has no collision or some shit!!
+                                // check if proxy has no collision!!
                                 bool canPlace = true;
                                 Collider[] collisions = Physics.OverlapBox(m_buildProxy.transform.position + m_buildProxyBoxCollider.center, m_buildProxyBoxCollider.size / 2.0f, Quaternion.identity);
                                 for (int i = 0; i < collisions.Length; i++)
@@ -112,7 +112,7 @@ namespace E3D
 
                                 if (canPlace)
                                 {
-                                    // plot that shit here!
+                                    // plot building here!
                                     GameObject newBuildingObject = Instantiate(m_buildPrefab);
                                     newBuildingObject.transform.position = hit2.point;
 
@@ -133,7 +133,7 @@ namespace E3D
             // not in placaement mode
             if (Input.GetMouseButtonDown(0))
             {
-                // if mouse if over the a GUI object or there is a prompt waiting, don't bother raycasting and do any shit
+                // if mouse if over the a GUI object or there is a prompt waiting, don't bother raycasting and do anything
                 if (Utils.Input_IsPointerOnGUI() || IsWaitingForPrompt)
                     return;
 
@@ -167,7 +167,7 @@ namespace E3D
         {
             if (PlacementMode)
             {
-                // if esc key is pressed, go back to the fucking start page
+                // if esc key is pressed, go back to the start page
                 StopBuildMode();
                 return;
             }

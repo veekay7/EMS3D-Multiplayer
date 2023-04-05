@@ -133,8 +133,7 @@ public static class Utils
 
     /// <summary>
     /// Returns the distance between two GPS coordinates in degrees. The distance returned is in kilometers (km).
-    /// The GPS is calculated with reference to the Earth's radius and not any other fucking planet.
-    /// But seriously, I fucking hate Earth. Too many fucking humans. Fuck humans man!
+    /// The GPS is calculated with reference to the Earth's radius.
     /// </summary>
     /// <param name="coord1"></param>
     /// <param name="coord2"></param>

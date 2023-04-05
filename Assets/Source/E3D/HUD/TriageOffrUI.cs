@@ -60,7 +60,7 @@ namespace E3D
                 {
                     Ray ray = Player.CurrentCamera.m_CameraComponent.ScreenPointToRay(Input.mousePosition);
 
-                    // if mouse if over the a GUI object or there is a prompt waiting, don't bother raycasting and do any shit
+                    // if mouse if over the a GUI object or there is a prompt waiting, don't bother raycasting
                     if (Utils.Input_IsPointerOnGUI() || Player.IsWaitingForPrompt)
                         return;
 

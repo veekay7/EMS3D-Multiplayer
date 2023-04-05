@@ -102,9 +102,9 @@ public class GUIDialogueBox01 : GUIPopupBase
     }
 
     /// <summary>
-    /// Opens the dialogue box and immediately prints the fucking message.
+    /// Opens the dialogue box and immediately prints the message.
     /// </summary>
-    /// <param name="msg">Put your entire fucking message here and the dialogue box will paginate for you</param>
+    /// <param name="msg">Put your entire message here and the dialogue box will paginate for you</param>
     public void Open(string msg, UnityAction onFinishCallback)
     {
         // get total number of characters in msg

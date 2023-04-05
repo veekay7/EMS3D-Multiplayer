@@ -82,8 +82,7 @@ public class LobbyManager : SingletonBehaviour<LobbyManager>
             // if the selected role is either a incident commander or spectator, change it to default to triage officer
             if (GameCtrl.Instance.m_SelectedRole == EEmtRole.Spectator || GameCtrl.Instance.m_SelectedRole == EEmtRole.IncidentCmdr)
                 GameCtrl.Instance.m_SelectedRole = EEmtRole.TriageOffr;
-
-            // something somewhere here is fucked!!
+            
             int value = (int)GameCtrl.Instance.m_SelectedRole - 2;
             value = Mathf.Clamp(value, 0, 2);
             m_SelectRoleCmb.value = value;

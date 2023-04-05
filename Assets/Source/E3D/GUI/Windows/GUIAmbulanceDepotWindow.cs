@@ -112,7 +112,7 @@ namespace E3D
                 var ambulanceDepots = GameState.Current.m_AmbulanceDepots.ToArray();
                 Depot = ambulanceDepots[buttonIndex];
 
-                // get the route and show that shit
+                // get the route
                 var route = GameState.Current.m_RouteController.GetRoute(Depot.m_LocationId);
 
                 m_TxtName.text = Depot.m_PrintName;
