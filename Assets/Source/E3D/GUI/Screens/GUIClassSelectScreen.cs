@@ -40,7 +40,7 @@ namespace E3D
                 return;
             }
 
-            // TODO: fix this shit so that the best you can pick is evac offr
+            // TODO: fix this so that the best you can pick is evac offr
             m_emtId = classId;
             switch (m_emtId)
             {

@@ -26,7 +26,7 @@ public class PersistentObject : MonoBehaviour
     {
         if (!m_SetNoDestroyOnEnabled)
         {
-            DontDestroyThisShit();
+            DontDestroyThis();
         }
     }
 
@@ -34,11 +34,11 @@ public class PersistentObject : MonoBehaviour
     {
         if (m_SetNoDestroyOnEnabled)
         {
-            DontDestroyThisShit();
+            DontDestroyThis();
         }
     }
 
-    private void DontDestroyThisShit()
+    private void DontDestroyThis()
     {
         if (!m_persistentObjs.Contains(gameObject))
         {

@@ -63,10 +63,10 @@ namespace E3D
                     SetHospitalToAmbulance(route);
                     //------------------------------------------------------------------------------
 
-                    // VT: now we wait until the ambulance has all the shit we need
+                    // VT: now we wait until the ambulance has all the we need
                     if (CurrentAmbulance == null)
                     {
-                        Debug.Log("FUCK THIS STUPID!!");
+                        Debug.Log("CurrentAmbulance == null");
                     }
 
                     while (!CurrentAmbulance.HasRoute)

@@ -83,7 +83,7 @@ namespace E3D
 
         private void Start()
         {
-            // calculate cost and shit and put it on the damn game mode
+            // calculate cost and put it on the game mode
             if (isServer)
             {
                 for (int itemSlot = 0; itemSlot < m_ItemAttribs.Count; itemSlot++)

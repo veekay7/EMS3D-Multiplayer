@@ -62,8 +62,6 @@ namespace E3D
                 }
                 else
                 {
-                    Debug.Log("Fuck you IC");
-
                     m_ChkboxPersonal.gameObject.SetActive(false);
                     m_ChkboxMission.gameObject.SetActive(true);
 

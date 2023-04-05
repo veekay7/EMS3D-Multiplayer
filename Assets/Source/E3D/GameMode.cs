@@ -102,7 +102,7 @@ namespace E3D
                     // spawned victims with injuries and other profile things
                     m_VictimManager.InitInfoToVictims(probp3, probp2, probp1, probp0, agegap);
 
-                    // do any debug shit here
+                    // do any debug here
                     if (m_DbgTriageAllVictims)
                     {
                         m_VictimManager.TriageAllCorrectly();
@@ -595,7 +595,7 @@ namespace E3D
         }
 
 
-        #region Scoring Shit
+        #region Scoring
 
         public static int CalcDamageScore(float initialHealth, float currentHealth)
         {

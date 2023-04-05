@@ -92,7 +92,7 @@ namespace E3D
                 var hospitals = m_gameState.m_Hospitals.ToArray();
                 Hospital = hospitals[buttonIndex];
 
-                // get the route and show that shit
+                // get the route
                 var route = GameState.Current.m_RouteController.GetRoute(Hospital.m_LocationId);
                 HospitalRoute = route;
 

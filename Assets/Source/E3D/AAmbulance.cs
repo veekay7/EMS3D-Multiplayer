@@ -236,7 +236,7 @@ namespace E3D
             Debug.Log("REEEEEEE: Called RPC_OnArriveAtDest()");
 
             // if reached the hospital, unload the patient in the hospital if there is a patient inside
-            // if reached the evac point, don't do shit
+            // if reached the evac point, don't do anything
             if (Destination is AHospital)
             {
                 if (Victim != null)
@@ -274,7 +274,7 @@ namespace E3D
         }
 
 
-        #region Location Management Shit
+        #region Location Management
 
         [Server]
         public void SV_SetEvacPoint(AEvacPoint evacPoint, bool setAsCurrent = false)
@@ -356,7 +356,7 @@ namespace E3D
         #endregion
 
 
-        #region Routing Shit
+        #region Routing
 
         [Client]
         public void SetRoute(Route newRoute)
@@ -461,7 +461,7 @@ namespace E3D
         #endregion
 
 
-        #region Move/Stop Ambulance Shit
+        #region Move/Stop Ambulance
 
         [Command(requiresAuthority = false)]
         public void CMD_Move(EDirection direction)

@@ -383,7 +383,7 @@ public class GameCtrl : NetworkRoomManager
             GameObject gameModeObject = SV_Spawn("GameMode");
             if (gameModeObject == null)
             {
-                // TODO: disconnect and get da fuck outta here
+                // TODO: disconnect and get outta here
                 return;
             }
 
